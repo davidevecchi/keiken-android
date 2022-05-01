@@ -140,14 +140,14 @@ public class HomeActivity extends AppCompatActivity {
                 viewPagerAdapter.addFragment(homeFragment);
 
 
-                experiencesFragment = new ExperiencesFragment();
-                profileFragment = new ProfileFragment();
-                savedFragment = new SavedFragment();
-                messagingFragment = new MessagingFragment();
-                viewPagerAdapter.addFragment(experiencesFragment);
-                viewPagerAdapter.addFragment(profileFragment);
-                viewPagerAdapter.addFragment(savedFragment);
-                viewPagerAdapter.addFragment(messagingFragment);
+//                experiencesFragment = new ExperiencesFragment();
+//                profileFragment = new ProfileFragment();
+//                savedFragment = new SavedFragment();
+//                messagingFragment = new MessagingFragment();
+//                viewPagerAdapter.addFragment(experiencesFragment);
+//                viewPagerAdapter.addFragment(profileFragment);
+//                viewPagerAdapter.addFragment(savedFragment);
+//                viewPagerAdapter.addFragment(messagingFragment);
 
 
                 viewPager.setAdapter(viewPagerAdapter);

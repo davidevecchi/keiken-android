@@ -218,7 +218,7 @@ public class HomeFragment extends Fragment implements IOnBackPressed {
                                                     }
                                                 }
                                                 e = new Esperienza(titolo, descrizione, luogo, ID_CREATORE, prezzo, categorie, date, ore, minuti, nPostiDisponibili, photoUri, ID_ESPERIENZA);
-                                                if (!e.getID_CREATORE().equals(mAuth.getCurrentUser().getUid()))
+//                                                if (!e.getID_CREATORE().equals(mAuth.getCurrentUser().getUid()))
                                                     esperienze.add(e);
 
 
@@ -740,7 +740,7 @@ public class HomeFragment extends Fragment implements IOnBackPressed {
                                             }
                                         }
                                         e = new Esperienza(titolo, descrizione, luogo, ID_CREATORE, prezzo, categorie, date, ore, minuti, nPostiDisponibili, photoUri, ID_ESPERIENZA);
-                                        if (!e.getID_CREATORE().equals(mAuth.getCurrentUser().getUid()))
+//                                        if (!e.getID_CREATORE().equals(mAuth.getCurrentUser().getUid()))
                                             esperienze.add(e);
 
 
